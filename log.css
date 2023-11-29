@@ -4,20 +4,23 @@ body {
   background-image:url(/image/chime.jpg); 
   background-repeat:no-repeat;
   background-position: none;
-  padding: 600px 30px;
-  /* backdrop-filter: blur(2px); */
+  padding: 0;
+  margin: 0;
+  height: 100vh;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 48%;
 }
 
 .container {
-  width: 700px;
-  height: 500px;
+  width: 830px;
+  height: 700px;
   padding: 20px 50px;
   background-color: antiquewhite;
   background-size: 90px;
   border-radius:  20px;
   box-shadow: 0px 0px 5px #666;
-  /* padding: 20px ; */
-  /* margin-bottom: 350px; */
   font-size:29px;
   justify-content: center;
   position: relative;
@@ -34,7 +37,7 @@ h2 {
 
 .label, input[type="submit"] {
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 90px;
   font-size: 30px;
 }
 
@@ -45,11 +48,8 @@ input[type="email"], input[type="password"] {
   border: 1px solid #ccc;
   width: 70%;
   box-sizing: border-box;
-  /* display: flex; 
-  justify-content: center;  */
   align-items: center;
-  font-size: 25px;
-  /* gap: 10px; */
+  font-size: 30px;
 }
 
 button{
@@ -61,6 +61,7 @@ button{
   cursor: pointer;
   height: -20px;
   font-size: 30px;
+  
 }
 .login{
   display: flex;
@@ -69,8 +70,6 @@ button{
   align-self: center;
   align-items: center;
   font-size: larger;
-  gap: 20px;
-  /* position: relative; */
-  /* top: 100%;
-  left: 0% */
+  gap: 35px;
+
 }
